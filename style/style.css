@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.header__inner{
+    padding: 20px 0;
+}
+.conteiner{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #22262A;
+}
+.menu__list {
+    display: flex;
+    list-style-type: none;
+}
+.menu_link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 20px;
+    color: #22262A;
+}
+.fas, .far{
+    font-weight: 100;
+}
+.far{
+    margin: 0 25px;
+}
+#hero{
+    background: url("../imagis/category/1 1.png");
+    min-height: 745px;
+}
+.hero__item{
+    position: relative;
+    min-height: 745px;
+}
+.hero__item-content{
+    position: absolute;
+    right: 215px;
+    bottom: 100px;
+}
+.hero__desc{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+    display: block;
+}
+
+
+.hero__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+}
+.hero__link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background: #22262A;
+    padding: 5px 30px;
+    display: inline-block;
+    margin: 25px 35px 0 0;
+    color: #FFFFFF;
+}
+
+
+#category{
+    margin: 120px 230px 0 230px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.img__catagory-men{
+    width: 100%;
+}
+.row__female-catagory_image{
+    display: flex;
+    margin: 20px -12px 0 -12px;
+}
+
+.female__col-6{
+    width: 50%;
+    padding: 0 12px;
+}
+.female{
+    width: 100%;
+}
+
+.category__men-bg{
+    position: relative;
+    background: #00000050 url("../imagis/category/Mask Group.png");
+    background-blend-mode: darken;
+    min-height: 545px;
+}
+.category__link{
+    position: absolute;
+    padding: 5px 25px;
+    left: 30px;
+    bottom: 30px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+
+#catalog__woomen, #catalog__men{
+    padding-top: 110px;
+    margin: 0 230px;
+}
+.catalog__title{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.catalog__desc{
+    font-style: normal;
+    display: block;
+    margin: 15px 0 65px 0;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.catalog__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+   width: 25%;
+    padding: 0 20px;
+}
+.catalog__product-desc{
+    display: block;
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+.catalog__product-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+.catalog_price{
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+.old{
+    text-decoration: line-through;
+}
+.new{
+    color: red;
+}
+
+
+#styles{
+    padding-top: 110px;
+    margin: 0 230px 0 230px;
+}
+.styles__title{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A;
+}
+.styles__desc {
+    display: block;
+    margin: 15px 0 60px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center
+}
+.styles__row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-2{
+    width: 33.333%;
+}
+.women-1{
+    margin: 130px 0 0 0;
+}
+.women-2{
+    margin: 60px 0 0 225px;
+}
+.girls{
+
+}
+.women-3{
+    padding: 15px 0 0 15px;
+    background: #FFFFFF;
+    margin: 425px 0 0 0;
+}
+.show{
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 934px;
+    top: 3847px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    text-decoration: underline;
+}
+
+
+#shop-collection
+{
+    background: url("../imagis/two-img.png");
+    min-height: 745px;
+    margin-top: 120px;
+}
+
+.shop-collection__item {
+    min-height: 745px;
+}
+
+.shop-collection__item-content{
+
+    
+    right: 215px;
+    bottom: 100px;
+}
+
+
+.shop__desc{
+    position: absolute;
+    width: 123px;
+    height: 27px;
+    left: 229px;
+    top: 4466px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: block;
+}
+
+.shop__title{
+    position: absolute;
+    width: 426px;
+    height: 120px;
+    left: 229px;
+    top: 4488px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+}
+.shop__link {
+    position: absolute;
+    width: 214px;
+    height: 35px;
+    padding: 5px 0 0 0;
+    left: 229px;
+    top: 4613px;
+    text-align: center;
+    background: #22262A;
+    display: inline-block;
+    margin: 25px 35px 0 0;
+    color: #FFFFFF;
+}
+
+#info {
+    min-height:700px;
+    padding: 150px 230px 0 230px;
+    background: #F2F8FC;
+
+}
+
+.info__logo {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A;
+}
+
+.info__desc {
+    margin: 15px 0 40px 0;
+    display: block;
+    width: 410px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.info__location__desc {
+    margin-left: 25px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.info__email__link {
+    width: 240px;
+    margin-top: 25px;
+    border-bottom: 1px solid #000;
+    display: block;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.info__social {
+    width: 110px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email__updates {
+    margin-bottom: 25px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A;
+}
+
+#email {
+    width: 100%;
+    border: none;
+    padding: 10px 25px;
+    box-shadow: 0 0 2px 0 #c8c4c4;
+    outline: grey;
+
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    color:#673AB7;
+    background-color: transparent;
+    border: none;
+    padding:6px;
+    text-decoration: none;
+    transition: color .2s linear;
+    transform: perspective(1px) translateZ(0);
+}
+
+a::before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    background: #673AB7;
+    transition: height .2s linear;
+}
+
+a:hover::before {
+    height: 100%;
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+#email::placeholder {
+    color: #000000;
+}
+
+.label__email {
+    position: relative;
+}
+
+.btn__email {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+
+}
+
+.down__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.down__menu-list {
+   list-style-type: none;
+}
+
+.down__menu-title {
+    display: inline-block;
+    margin: 70px 0 30px 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22262A;
+}
+
+.down__menu-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+footer {
+    padding: 35px 0;
+    text-align: center;
+    background: #E7F5F8;
+    border-radius: 0 0 20px 20px;
+}
+
+.footer__desc {
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
